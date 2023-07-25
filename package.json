@@ -1,0 +1,30 @@
+{
+  "name": "steffano-theme",
+  "description": "QA Dark Teheme",
+  "displayName": "Steffano Dark",
+  "version": "0.0.0",
+  "icon": "Assets/logo-steffano.jpg",
+  "keywords": ["theme","Steffano","Igor Steffano","QA","QA theme"],
+  "publisher": "IgorSteffano",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Steffano Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Steffano-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package --no-yarn",
+    "publish": "vsce publish --no-yarn"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
